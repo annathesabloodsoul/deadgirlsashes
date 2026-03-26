@@ -1,239 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dead Girl's Ashes - Annathesa Nikola Darksbane</title>
-    
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1021981566672249');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1021981566672249&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background-color: #000000;
-            color: #f0f0f0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            width: 100%;
-        }
-        
-        .header {
-            text-align: center;
-            font-size: 1.5rem;
-            font-weight: 300;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 40px;
-            padding: 20px;
-        }
-        
-        .main-content {
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
-            gap: 30px;
-            align-items: start;
-            margin-bottom: 40px;
-        }
-        
-        .review-panel {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            padding-top: 60px;
-        }
-        
-        .review {
-            text-align: center;
-        }
-        
-        .review-text {
-            font-size: 1rem;
-            margin-bottom: 10px;
-            line-height: 1.4;
-        }
-        
-        .stars {
-            color: #FFD700;
-            font-size: 1.5rem;
-            letter-spacing: 5px;
-        }
-        
-        .book-cover-container {
-            text-align: center;
-        }
-        
-        .book-cover {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 10px 40px rgba(255, 0, 0, 0.3);
-        }
-        
-        .description {
-            text-align: center;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            padding: 0 20px;
-        }
-        
-        .cta-container {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        
-        .amazon-button {
-            display: inline-block;
-            cursor: pointer;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        
-        .amazon-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 20px rgba(255, 153, 0, 0.5);
-        }
-        
-        .amazon-button img {
-            width: 300px;
-            height: auto;
-        }
-        
-        /* Mobile Responsive */
-        @media (max-width: 968px) {
-            .main-content {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            
-            .review-panel {
-                padding-top: 0;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            
-            .review {
-                flex: 0 0 45%;
-                min-width: 200px;
-            }
-            
-            .header {
-                font-size: 1.2rem;
-            }
-            
-            .description {
-                font-size: 1rem;
-            }
-        }
-        
-        @media (max-width: 600px) {
-            .review {
-                flex: 0 0 100%;
-            }
-            
-            .amazon-button img {
-                width: 250px;
-            }
-            
-            .header {
-                font-size: 1rem;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dead Girl's Ashes - Annathesa</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1021981566672249');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1021981566672249&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --blood: #8b0000;
+    --ember: #c0392b;
+    --gold: #c9a84c;
+    --ash: #e8e0d0;
+    --dark: #0a0a0a;
+    --mid: #1a1a1a;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--dark);
+    color: var(--ash);
+    font-family: 'Crimson Text', Georgia, serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Atmospheric background */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: 
+      radial-gradient(ellipse at 50% 0%, rgba(139,0,0,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 0% 100%, rgba(139,0,0,0.08) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page {
+    position: relative;
+    z-index: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* Header */
+  .headline {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(0.85rem, 2.5vw, 1.05rem);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ash);
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.1s;
+  }
+
+  /* CTA Button - TOP */
+  .cta-top {
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.25s;
+  }
+
+  .amazon-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #ff9900 0%, #e67e00 100%);
+    color: #111;
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 3px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 4px 20px rgba(255,153,0,0.3);
+  }
+
+  .amazon-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255,153,0,0.45);
+    filter: brightness(1.05);
+  }
+
+  .amazon-btn svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  /* Book Cover */
+  .cover-wrap {
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.4s;
+  }
+
+  .cover-wrap img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 
+      0 20px 60px rgba(0,0,0,0.8),
+      0 0 40px rgba(139,0,0,0.2),
+      -4px 0 12px rgba(0,0,0,0.5);
+    display: block;
+  }
+
+  /* Divider */
+  .divider {
+    width: 120px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.55s;
+  }
+
+  /* Blurb */
+  .blurb {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    line-height: 1.75;
+    text-align: center;
+    color: #d4cbbf;
+    max-width: 560px;
+    margin-bottom: 12px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.65s;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 520px;
+    margin-bottom: 36px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.75s;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding: 14px 20px;
+    border-left: 2px solid var(--ember);
+    background: rgba(139,0,0,0.06);
+  }
+
+  .testimonial-text {
+    font-style: italic;
+    font-size: 1rem;
+    color: #c8bfb0;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+
+  .stars {
+    color: var(--gold);
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+  }
+
+  /* CTA Button - BOTTOM */
+  .cta-bottom {
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.85s;
+  }
+
+  .sub-note {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6b6560;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+    font-family: 'Cinzel', serif;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 480px) {
+    .page {
+      padding: 28px 20px 48px;
+    }
+    .amazon-btn {
+      font-size: 0.85rem;
+      padding: 13px 24px;
+    }
+    .testimonials {
+      gap: 12px;
+    }
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            ASHLEY IS DEAD, AND THAT'S THE LEAST OF HER PROBLEMS.
-        </div>
-        
-        <div class="main-content">
-            <!-- Left Review Panel -->
-            <div class="review-panel">
-                <div class="review">
-                    <div class="review-text">"Fantastic read, need more!"</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="review">
-                    <div class="review-text">"A gritty urban fantasy with a terrific protagonist. Highly recommended"</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="review">
-                    <div class="review-text">"A refreshing take on vampires. Loved it."</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-            </div>
-            
-            <!-- Book Cover -->
-            <div class="book-cover-container">
-                <img src="https://deadgirlsashes.carrd.co/assets/images/image01.jpg?v=734e8f72" 
-                     alt="Dead Girl's Ashes Book Cover" 
-                     class="book-cover">
-            </div>
-            
-            <!-- Right Review Panel -->
-            <div class="review-panel">
-                <div class="review">
-                    <div class="review-text">"Loved every minute."</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="review">
-                    <div class="review-text">"Takes the vampire mythos to a new and unique place. You'll be invested from the get-go."</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <div class="review">
-                    <div class="review-text">"From the very first line, this book sucked me in."</div>
-                    <div class="stars">★★★★★</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="description">
-            Ashley Currigan just wanted to make it home after a long, thankless shift. Instead, she went from a dead-end job to just plain dead. Now she must discover the truth behind a string of vanished women before an ancient horror devours everyone she cares about - and before fighting back against monsters makes her a monster, too.
-        </div>
-        
-        <div class="cta-container">
-            <a href="https://geni.us/annathesabooks" 
-               class="amazon-button"
-               onclick="fbq('track', 'InitiateCheckout'); return true;">
-                <img src="https://deadgirlsashes.carrd.co/assets/images/image02.png?v=734e8f72" 
-                     alt="Buy now at Amazon.com">
-            </a>
-        </div>
+
+<div class="page">
+
+  <p class="headline">Ashley is dead, and that's the least of her problems.</p>
+
+  <div class="cta-top">
+    <a href="https://geni.us/annathesabooks"
+       class="amazon-btn"
+       onclick="fbq('track', 'InitiateCheckout'); return true;">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.23 10.56V10c-1.94 0-3.99.39-3.99 2.67 0 1.15.59 1.93 1.62 1.93.75 0 1.41-.46 1.83-1.22.51-.93.54-1.8.54-2.82zm2.07 5.13c-.13.12-.32.13-.47.05-1-.85-1.2-1.24-1.75-2.05-1.68 1.71-2.87 2.22-5.04 2.22-2.58 0-4.58-1.59-4.58-4.77 0-2.49 1.34-4.18 3.27-5.01 1.66-.73 3.99-.86 5.77-1.06V4.7c0-.73.06-1.59-.37-2.22-.38-.56-1.1-.79-1.74-.79-1.18 0-2.23.61-2.49 1.87-.05.27-.27.53-.54.54l-3.01-.32c-.25-.06-.53-.27-.46-.66C5.44 1.2 8.3 0 10.89 0c1.33 0 3.06.35 4.11 1.35C16.33 2.5 16.22 4 16.22 5.62v5.01c0 1.51.62 2.17 1.2 2.98.21.29.25.64-.01.86l-2.11 1.22zm2.92 2.19C7.9 23.47 4.58 19 3.03 16.48c-.28-.46.22-.96.63-.65 4.5 3.07 9.5 4.64 15.2 4.16.68-.06.77.82.12 1.09a19.7 19.7 0 01-5.86.85z"/>
+      </svg>
+      Get it on Amazon
+    </a>
+  </div>
+
+  <div class="cover-wrap">
+    <img src="https://d2efb7hsma0m63.cloudfront.net/books/cover_images/9288910e6bf313b3310c730a3f0e79ed.jpg"
+         alt="Dead Girl's Ashes by Annathesa — Book Cover">
+  </div>
+
+  <div class="divider"></div>
+
+  <p class="blurb">
+    Ashley's life changed — and ended — in a heartbeat. Now she's the only one who can save her girlfriend and her city from a supernatural horror thought extinct for centuries. But can this stubborn dead woman find her own killer before time and her own humanity both run out?
+  </p>
+
+  <div class="cta-mid" style="margin-bottom:36px; opacity:0; animation: fadeUp 0.8s ease forwards 0.75s;">
+    <a href="https://geni.us/annathesabooks"
+       class="amazon-btn"
+       onclick="fbq('track', 'InitiateCheckout'); return true;">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.23 10.56V10c-1.94 0-3.99.39-3.99 2.67 0 1.15.59 1.93 1.62 1.93.75 0 1.41-.46 1.83-1.22.51-.93.54-1.8.54-2.82zm2.07 5.13c-.13.12-.32.13-.47.05-1-.85-1.2-1.24-1.75-2.05-1.68 1.71-2.87 2.22-5.04 2.22-2.58 0-4.58-1.59-4.58-4.77 0-2.49 1.34-4.18 3.27-5.01 1.66-.73 3.99-.86 5.77-1.06V4.7c0-.73.06-1.59-.37-2.22-.38-.56-1.1-.79-1.74-.79-1.18 0-2.23.61-2.49 1.87-.05.27-.27.53-.54.54l-3.01-.32c-.25-.06-.53-.27-.46-.66C5.44 1.2 8.3 0 10.89 0c1.33 0 3.06.35 4.11 1.35C16.33 2.5 16.22 4 16.22 5.62v5.01c0 1.51.62 2.17 1.2 2.98.21.29.25.64-.01.86l-2.11 1.22zm2.92 2.19C7.9 23.47 4.58 19 3.03 16.48c-.28-.46.22-.96.63-.65 4.5 3.07 9.5 4.64 15.2 4.16.68-.06.77.82.12 1.09a19.7 19.7 0 01-5.86.85z"/>
+      </svg>
+      Get it on Amazon
+    </a>
+  </div>
+
+  <div class="testimonials">
+    <div class="testimonial">
+      <div class="testimonial-text">"Fantastic read, need more!"</div>
+      <div class="stars">★★★★★</div>
     </div>
+    <div class="testimonial">
+      <div class="testimonial-text">"A gritty urban fantasy with a terrific protagonist. Highly recommended."</div>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-text">"A refreshing take on vampires. Loved it."</div>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-text">"From the very first line, this book sucked me in."</div>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-text">"Loved every minute."</div>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-text">"Takes the vampire mythos to a new and unique place. You'll be invested from the get-go."</div>
+      <div class="stars">★★★★★</div>
+    </div>
+  </div>
+
+  <div class="cta-bottom">
+    <a href="https://geni.us/annathesabooks"
+       class="amazon-btn"
+       onclick="fbq('track', 'InitiateCheckout'); return true;">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.23 10.56V10c-1.94 0-3.99.39-3.99 2.67 0 1.15.59 1.93 1.62 1.93.75 0 1.41-.46 1.83-1.22.51-.93.54-1.8.54-2.82zm2.07 5.13c-.13.12-.32.13-.47.05-1-.85-1.2-1.24-1.75-2.05-1.68 1.71-2.87 2.22-5.04 2.22-2.58 0-4.58-1.59-4.58-4.77 0-2.49 1.34-4.18 3.27-5.01 1.66-.73 3.99-.86 5.77-1.06V4.7c0-.73.06-1.59-.37-2.22-.38-.56-1.1-.79-1.74-.79-1.18 0-2.23.61-2.49 1.87-.05.27-.27.53-.54.54l-3.01-.32c-.25-.06-.53-.27-.46-.66C5.44 1.2 8.3 0 10.89 0c1.33 0 3.06.35 4.11 1.35C16.33 2.5 16.22 4 16.22 5.62v5.01c0 1.51.62 2.17 1.2 2.98.21.29.25.64-.01.86l-2.11 1.22zm2.92 2.19C7.9 23.47 4.58 19 3.03 16.48c-.28-.46.22-.96.63-.65 4.5 3.07 9.5 4.64 15.2 4.16.68-.06.77.82.12 1.09a19.7 19.7 0 01-5.86.85z"/>
+      </svg>
+      Get it on Amazon
+    </a>
+    <p class="sub-note">Available in Kindle Unlimited · All 5 books in series</p>
+  </div>
+
+</div>
+
 </body>
-
 </html>
-
